@@ -6,7 +6,7 @@
                     <div class="card-body">
                         <div class="form-group">
                             <label for="">Product Name</label>
-                            <input type="text" v-model="product_name" placeholder="Product Name" class="form-control">
+                            <input type="text" v-model="product_name" placeholder="Product Name" :value="product.title" class="form-control">
                         </div>
                         <div class="form-group">
                             <label for="">Product SKU</label>

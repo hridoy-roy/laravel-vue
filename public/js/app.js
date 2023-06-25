@@ -2110,6 +2110,7 @@ __webpack_require__.r(__webpack_exports__);
       };
       axios.post('/product', product).then(function (response) {
         console.log(response.data);
+        event.target.reset();
       })["catch"](function (error) {
         console.log(error);
       });
@@ -63300,8 +63301,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/rifat/Programming/mediusware/interview/interview-question-sr/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/rifat/Programming/mediusware/interview/interview-question-sr/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! I:\GITHub\laravel-vue\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! I:\GITHub\laravel-vue\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
